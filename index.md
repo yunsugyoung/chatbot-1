@@ -1,4 +1,4 @@
-# 윤수경 LSM연구회 슈퍼우먼티쳐챗(Superwoman Teacher chat)
+# LSM연구회 슈퍼우먼티쳐챗(Superwoman Teacher chat)
 
 
 🏤 LSM인공지능 연합회 명단취합
