@@ -14,7 +14,9 @@
 
 ### 👸 황인미  ☆강의문의:010-6665-4332    ☆메일주소:ytuaeb@hanmail.net 
 
-	:softball:
+### Smileys & Emotion
+
+- [Face Smiling](#face-smiling)
  
 
 
