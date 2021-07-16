@@ -1,71 +1,8 @@
-<!DOCTYPE HTML >
-< html  lang =" {{ site.lang | 기본값: " en-US " }}" >
-  < 머리 >
-    
-< 스크립트  src =" https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1 " > </ 스크립트 >
-< df-메신저
-  채팅 아이콘 =" https://user-images.githubusercontent.com/81283008/118608586-d053fb00-b7f4-11eb-8c48-f53dcb3d3a6a.jpg "
-  의도 =" 환영합니다 "
-  채팅 제목 = SSchat "
-  에이전트 ID = 78761771-911b-4426-a092-35ca96d63338 "
-  언어 코드 =" ko "             
-> </ df-메신저 >
-    
-< 스타일 >
-  df-메신저 {
-   --df-messenger-bot-message :  # 585858 ;
-   --df-messenger-button-titlebar-color :  # FFFFFF6 ;
-   --df-messenger-button-titlebar-font-color :  # 0404B4 ;
-   --df-messenger-chat-background-color :  # E6E6E6 ;
-   --df-messenger-font-color :  # F7F2E0 ;
-   --df-messenger-send-icon :  # F7D358 ;
-   --df-messenger-user-message :  # F7819F ;
-  }
-</ 스타일 >
-    
-    {% if site.google_analytics %}
-      < 스크립트  비동기  src =" https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }} " > </ 스크립트 >
-      < 스크립트 >
-        창 . dataLayer  =  창 . 데이터 레이어  ||  [ ] ;
-        함수  gtag ( ) { 데이터 영역 . 푸시 ( 인수 ) ; }
-        gtag ( 'js' ,  새로운  날짜 ( ) ) ;
-        gtag ( '구성' ,  '{{ site.google_analytics }}' ) ;
-      </ 스크립트 >
-    {% endif %}
-    < 메타  문자 집합 = UTF-8 " >
 
-{% 현서 %}
-    < link  rel =" 사전 연결 " href =" https://fonts.gstatic.com " >
-    < link  rel =" preload " href =" https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap " as =" style " type =" text/css " crossorigin >
-    < 메타  이름 = 뷰포트 " 콘텐츠 = 너비 = 장치 너비, 초기 크기 = 1 " >
-    < 메타  이름 =" 테마 색상 " 내용 =" #157878 " >
-    < 메타  이름 =" apple-mobile-web-app-status-bar-style " 콘텐츠 =" 검은색 반투명 " >
-    < 링크  rel =" 스타일시트 " href =" {{ '/assets/css/style.css?v=' | 추가: site.github.build_revision | relative_url }} " >
-  </ 머리 >
-  < 본체 >
-    < a  id =" skip-to-content " href =" #content " > 콘텐츠로 건너뜁니다. </ a >
-
-    < 헤더  클래스 =" 페이지 헤더 " 역할 =" 배너 " >
-      < h1  클래스 =" 프로젝트 이름 " > {{ page.title | 기본값: site.title | 기본값: site.github.repository_name }} </ h1 >
-      < h2  class =" 프로젝트 태그라인 " > {{ page.description | 기본값: site.description | 기본값: site.github.project_tagline }} </ h2 >
-      {% if site.github.is_project_page %}
-        < a  href =" {{ site.github.repository_url }} " class =" btn " > GitHub에서 보기 </ a >
-      {% endif %}
-      {% if site.show_downloads %}
-        < a  href =" {{ site.github.zip_url }} " class =" btn " > .zip 다운로드 </ a >
-        < a  href =" {{ site.github.tar_url }} " class =" btn " > .tar.gz 다운로드 </ a >
-      {% endif %}
-    </ 헤더 >
-
-    < 메인  아이디 = 콘텐츠 " 클래스 = 메인 콘텐츠 " 역할 = 메인 " >
-      {{ 콘텐츠 }}
-
-      < 바닥글  클래스 =" 사이트 바닥글 " >
-        {% if site.github.is_project_page %}
-          < span  class =" site-footer-owner " > < a  href =" {{ site.github.repository_url }} " > {{ site.github.repository_name }} </ a > 은(는) < a  href =" { { site.github.owner_url }} " > {{ site.github.owner_name }} </ a > . </ 스팬 >
-        {% endif %}
-        < span  class =" site-footer-credits " > 이 페이지는 < a  href =" https://pages.github.com " > GitHub 페이지 </ a > 에서 생성되었습니다 . </ 스팬 >
-      </ 바닥글 >
-    </ 메인 >
-  </ 본문 >
-</ html >
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/61ffd7bd-b7b2-4971-a7e2-bf8e2ab89c14">
+</iframe>
+      
