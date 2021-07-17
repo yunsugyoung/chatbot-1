@@ -1,6 +1,4 @@
 # LSM연구회 슈퍼우먼티쳐챗(Superwoman Teacher chat)
-
-
 🏤 LSM인공지능 연합회 명단취합
 
 ![](https://cdn.pixabay.com/photo/2014/04/03/11/55/robot-312566_960_720.png){:width="200" height="300"}
