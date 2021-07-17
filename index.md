@@ -2,7 +2,7 @@
 
 
 🏤 LSM인공지능 연합회 명단취합
-![](https://cdn.pixabay.com/photo/2014/04/03/11/55/robot-312566_960_720.png){: width=”30% “ height=”30% “} 
+![](https://cdn.pixabay.com/photo/2014/04/03/11/55/robot-312566_960_720.png){: width="30%" height="30%"} 
 
 
 ###  👸 이수미 강의문의 :               메일주소:                    희망강의:                  강의페이: 
